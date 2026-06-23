@@ -88,11 +88,6 @@ php artisan optimize:clear
 
 - Hapus cookie browser untuk `127.0.0.1` atau coba Incognito.
 
-## Pembagian Presentasi
-
-Orang 1 menjelaskan konsep, database, dan relasi tabel. Orang 2 menjelaskan demo fitur: login, CRUD kategori, CRUD pakaian, upload foto, membuat outfit, riwayat outfit, dan dashboard admin.
-
-
 ## Catatan Fix Upload Foto
 
 Pada versi ini foto pakaian disimpan ke folder `public/uploads/clothes`, jadi gambar langsung tampil tanpa bergantung pada `php artisan storage:link`. Tetap boleh menjalankan `php artisan storage:link`, tetapi fitur upload tidak bergantung pada command tersebut. Jika login memakai akun admin, fitur pakaian juga bisa dites agar demo lebih mudah.
