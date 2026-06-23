@@ -1,4 +1,4 @@
-# Fix Tombol Detail, Edit, Hapus Pakaian
+# Tombol Detail, Edit, Hapus Pakaian
 
 Revisi ini memperbaiki tombol pada card pakaian agar bisa diklik dan route model binding pakaian lebih aman.
 
