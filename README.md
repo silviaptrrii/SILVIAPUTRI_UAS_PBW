@@ -1,6 +1,6 @@
 # Sistem Wardrobe & Outfit Planner
 
-Aplikasi web Laravel untuk mengelola koleksi pakaian dan membuat kombinasi outfit. UI menggunakan tema **Soft Pink Elegant** dengan Blade + Bootstrap 5 CDN.
+Aplikasi web Laravel untuk mengelola koleksi pakaian dan membuat kombinasi outfit. UI menggunakan tema Soft Pink Elegant dengan Blade + Bootstrap 5 CDN.
 
 ## Fitur
 
@@ -88,6 +88,6 @@ php artisan optimize:clear
 
 - Hapus cookie browser untuk `127.0.0.1` atau coba Incognito.
 
-## Catatan Fix Upload Foto
+## Catatan Upload Foto
 
 Pada versi ini foto pakaian disimpan ke folder `public/uploads/clothes`, jadi gambar langsung tampil tanpa bergantung pada `php artisan storage:link`. Tetap boleh menjalankan `php artisan storage:link`, tetapi fitur upload tidak bergantung pada command tersebut. Jika login memakai akun admin, fitur pakaian juga bisa dites agar demo lebih mudah.
